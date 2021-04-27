@@ -1,0 +1,137 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #000000;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 3% 6%;
+    margin-top: -2rem;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+    background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    background: linear-gradient(271deg, #000000 30%, #363b4e 50%, #4f3b78 70%, #c4bbf0 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-family: 'Montserrat';
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    background-color: #000000;
+    color: "white";
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+}
+
+.navitem {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+.chumma {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+
+/* download button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 40%;
+    transform: rotate(-45deg);
+    position: absolute;
+    margin-left: 10rem;
+}
+
+
+/* Featurebox */
+
+#features {
+    padding: 7% 15% background-color: #fff;
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.feature-box {
+    text-align: centre;
+}
+
+.icon {
+    color: #000000;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+
+.icon:hover {
+    color: #435560;
+}
+
+
+/* quotes */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: "white";
+    color: 'grey';
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 25%;
+    margin: 20px;
+}
+
+#aboutus {
+    background-color: #000000;
+    color: #ffffff;
+    animation: top-to-bottom 3s ease-in;
+}
+
+.aboutusimg {
+    width: 3%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.mystyles {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0% 17%
+}
